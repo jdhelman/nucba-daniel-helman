@@ -1,0 +1,440 @@
+/* Estilos para tablets */
+
+@media (max-width: 992px) {
+    .navbar{
+        gap: 10px;
+    }
+
+    .cart-icon{
+        border: 0px solid;
+        height: 40px;
+    }
+
+    .navbar-links{
+        position: absolute;
+        top: 110px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+        border: 2px solid var(--electric);
+        border-top: none;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+    }
+
+    .navbar-links a{
+        font-size: 18px;
+    }
+
+    .menu-label{
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+    .menu-label img{
+        height: 19px;
+        width: 19px;
+    }
+
+    #menu-toggle:checked + .navbar-links{
+        display: flex;
+    }
+
+    #home {
+        margin-top: 100px;
+        padding: 110px 0px 0px 0px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        bottom: 0;
+    }
+
+    .home-info{
+        width: 100%;
+        padding: 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-info h1 {
+        width: 100%;
+        max-width: 600px;
+        min-width: unset;
+        font-size: 50px;
+    }
+
+    .home-info p {
+        width: 100%;
+        max-width: 600px;
+        font-size: 25px;
+    }
+
+    .home-cards {
+        padding: 1.5rem;
+        max-width: 600px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    #about {
+        padding: 110px 0px 0px 0px;
+        max-width: 600px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-us-row{
+        max-width: 600px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        max-width: 600px;
+    }
+
+    .content h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .content p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #products{
+        padding: 110px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .product-container{
+        padding: 2rem;
+        max-width: 600px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .products-items {
+        width: auto;
+    }
+
+    .pet-cart-view-all-items {
+        width: auto;
+    }
+
+    #review {
+        padding: 110px 0px 0px 0px;
+        max-width: 600px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    
+    .review-container {
+        padding: 2rem;
+        max-width: 600px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        gap: 20px;
+    }
+
+    #contact {
+        padding: 110px 0px 0px 0px;
+        max-width: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-container {
+        padding: 2rem;
+        max-width: 600px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        gap: 20px;
+    }
+
+    .contact-container form {
+        padding: 1rem;
+    }
+
+    footer {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .links {
+        gap: 10px;
+    }
+}
+
+
+
+
+@media (max-width: 576px){
+    .navbar{
+        gap: 10px;
+    }
+
+    .logo img{
+        height: 100px;
+    }
+
+    .cart-icon{
+        border: 0px solid;
+        height: 40px;
+    }
+
+    .navbar-links{
+        position: absolute;
+        top: 110px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+        border: 2px solid var(--electric);
+        border-top: none;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+    }
+
+    .navbar-links a{
+        font-size: 18px;
+    }
+
+    .navbar-users {
+        gap: 15px;
+    }
+
+    .navbar-users li a {
+        color: var(--text-white);
+        font-weight: 800;
+        background-color: var(--buttons-color);
+        text-align: center;
+        padding: 10px 10px;
+        border-radius: 17px;
+        font-size: 15px;
+    }
+
+    .menu-label{
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+    .menu-label img{
+        height: 19px;
+        width: 19px;
+    }
+
+    #menu-toggle:checked + .navbar-links{
+        display: flex;
+    }
+
+    #home {
+        margin-top: 100px;
+        padding: 80px 20px 0px 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-info{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-info h1 {
+        width: 100%;
+        max-width: 400px;
+        min-width: unset;
+        font-size: 35px;
+    }
+
+    .home-info p {
+        width: 100%;
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+    .home-cards {
+        flex-wrap: wrap;
+        padding: 1,2rem;
+        max-width: 390px;
+        height: 350px;
+        gap: 15px;
+    }
+
+    .home-cards img {
+        height: 85px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    #about {
+        padding: 100px 10px 0px 10px;
+        max-width: 400px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-us-row{
+        max-width: 400px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .about-us-img {
+        display: none;
+    }
+
+    .content {
+        max-width: 400px;
+        padding: 0;
+    }
+
+    .content h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .content p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    #products{
+        padding: 90px 20px 0px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .product-container{
+        padding: 2rem;
+        max-width: 400px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .products-items {
+        width: 300px;
+    }
+
+    .pet-cart-view-all-items {
+        width: auto;
+    }
+
+    #review {
+        padding: 90px 20px 0px 20px;
+        max-width: 400px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    
+    .review-container {
+        padding: 2rem;
+        max-width: 400px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 1500px;
+        gap: 20px;
+    }
+
+    #contact {
+        padding: 90px 20px 0px 20px;
+        max-width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-container {
+        padding: 2rem;
+        max-width: 400px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        gap: 20px;
+    }
+
+    .contact-container form {
+        padding: 1rem;
+    }
+
+    footer {
+        padding: 1rem;
+        display: flex;
+        width: 100%;
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 300px;
+        align-items: center;
+        padding: 3rem;
+        gap: 2rem;
+    }
+
+    .links a {
+        padding: 10px 200px 10px 200px;
+    }
+}
+    

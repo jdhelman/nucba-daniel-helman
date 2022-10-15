@@ -33,7 +33,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 65px;
+  height: 80px;
   padding: 0px 30px 0px 30px;
   position: fixed;
   top: 0;
@@ -370,3 +370,5 @@ main {
   justify-content: space-between;
   align-items: center;
 }
+
+.
