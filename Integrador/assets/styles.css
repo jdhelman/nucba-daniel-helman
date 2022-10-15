@@ -547,3 +547,14 @@ footer {
 .menu-label {
   display: none;
 }
+
+#login {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 120px 0px 0px 0px;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
